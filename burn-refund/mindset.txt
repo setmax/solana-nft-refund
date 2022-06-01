@@ -1,0 +1,94 @@
+Prettier
+1. create .prettierrc in root
+2. paste it's current contents
+// semi set to true means that Prettier will add semicolons when necessary.
+// trailingComma set to none means that Prettier will remove any trailing commas at the end of objects.
+// singleQuote set to true means that Prettier will prefer single quotes instead of double quotes unless the number of double-quotes outweighs the number of single-quotes. Read more here.
+// printWidth set to 80 specifies that the printer will wrap any lines that exceed 80 characters.
+3. also use ctrl+shift+p and type prefrences and select json one
+consider this for it's content
+
+{
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  // Default (format when you paste)
+  "editor.formatOnPaste": true,
+  // Default (format when you save)
+  "editor.formatOnSave": true
+}
+
+you can say which language should formatting their contents according to this file.
+
+
+
+
+useful commands
+
+**mainnet-beta**
+solana config set --url https://api.mainnet-beta.solana.com -k ~/.config/solana/pay/phantom2.json
+
+**devnet**
+solana config set --url https://api.devnet.solana.com -k ~/.config/solana/devnet.json
+
+**quicknode**
+https://frosty-floral-wind.solana-devnet.quiknode.pro/fa3c7dec03be0b5335ff2905b342eedf94ada834/
+
+**localnet**
+solana config set --url http://127.0.0.1:8899 -k ~/.config/solana/localnet.json
+
+Wrote new keypair to /home/setmax/.config/solana/devnet.json
+===============================================================================
+pubkey: BYnHABGgieTbw5nDo1SEd4Uv5AgDfSSZDM99PWGVK4R
+===============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+play approve resource special home door mutual marble bronze diary find feature
+===============================================================================
+
+Wrote new keypair to /home/setmax/.config/solana/localnet.json
+=============================================================================
+pubkey: GHPkv1ZXrNhjpT7s9hhEpSEpnZTamxmhhy3AgGvTEY7X
+=============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+dizzy large muffin project ordinary wine piece noise filter void harvest face
+=============================================================================
+
+
+
+main wallets inside burn_refund wallet folder
+
+Wrote new keypair to /home/setmax/.config/solana/treasury_owner.json
+===========================================================================
+pubkey: 7y8tjWzFvqTFFvALLCEv995NdEE4pT2fYC1ZA7a57FqN
+===========================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+token consider tomorrow inner idle badge slide slam column vivid hurry fork
+===========================================================================
+
+Wrote new keypair to /home/setmax/.config/solana/allowed_update_auth.json
+=============================================================================
+pubkey: 5cj9djwBT2mVqCqN8ojadz4hKq17fyL6YYWh6zTsiAx2
+=============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+reduce air raven maximum toss measure extra hotel library normal amused depth
+=============================================================================
+
+
+from metaplex new sdk:
+
+Additionally, since no other optional parameters were provided,
+ it will do its best to provide sensible default values for the rest of the parameters. Namely:
+
+It will fetch the JSON metadata from the provided URI and try to use some of its fields to fill the gaps in the on-chain data. E.g.
+the metadata name will be used for the on-chain name as a fallback.
+Since no owner, mint authority or update authority were provided, the “identity” of the SDK will be used by default for these parameters.
+Meaning the SDK's identity will be the owner of that new NFT.
+It will also default to setting the identity as the first and only creator with a 100% share.
+It will try to fetch the secondary sales royalties from the downloaded JSON metadata or will default to 5%.
+It will default to making the NFT immutable — meaning you won't be able to update it later on.
+
+
+
+idl account:
+8fJhMEZfkN27NUM26cC4k2TnZEpj5Lpu23NwGd8ThSny

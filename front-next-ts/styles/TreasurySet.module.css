@@ -1,0 +1,97 @@
+.columnContainer {
+  min-width: 25rem;
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+  background-color: white;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.rowContainer {
+  min-width: 25rem;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.refundForm {
+  min-height: 10rem;
+  border: 1px solid orange;
+  padding: 16px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputField {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputTitle {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.inputLabel {
+  display: flex;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  border: 1px #ecf1f4 solid;
+  border-radius: 1rem;
+  padding: 0.6rem 0.4rem;
+  background-color: #fafcfc;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.formButton {
+  background: #4e44ce;
+  padding: 15px 20px;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s linear;
+  max-width: 500px;
+  min-width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 1em;
+}
+
+.formButton:active {
+  transform: scale(0.9);
+}

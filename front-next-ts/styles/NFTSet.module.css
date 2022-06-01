@@ -1,0 +1,74 @@
+.columnContainer {
+  min-width: 80%;
+  min-height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.2rem;
+  background-color: white;
+  align-items: center;
+  border-radius: 1rem;
+}
+.nftContainer {
+  min-width: 70%;
+  min-height: 40rem;
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.NFTLogSection {
+  min-height: 10rem;
+  border: 1px solid orange;
+  padding: 16px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+}
+.cardContent {
+  padding: 16px;
+}
+.cardExtra {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.cardButton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.cardLink {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+/* .cardButton:hover,
+a:hover {
+  opacity: 0.7;
+} */
