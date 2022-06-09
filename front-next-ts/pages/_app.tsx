@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import "@solana/wallet-adapter-react-ui/styles.css";
+import NextNProgress from "nextjs-progressbar";
 
 function MyApp({ Component, pageProps }) {
   const WalletConnectProvider = dynamic(
@@ -11,6 +12,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <WalletConnectProvider>
+      <NextNProgress />
       <Component {...pageProps} />
     </WalletConnectProvider>
   );
