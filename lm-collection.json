@@ -1,0 +1,28 @@
+{
+  "name": "LastMint Collection",
+  "symbol": "LMT",
+  "description": "The LastMint Collection represents a unique and gamified NFT minting experience where participants can earn rewards based on their minting order. Collect and participate in the ultimate minting game on the Solana blockchain.",
+  "seller_fee_basis_points": 500,
+  "image": "https://raw.githubusercontent.com/setmax/solana-nft-refund/main/lm-collection.png",
+  "external_url": "https://lastmint.io",
+  "collection": {
+    "name": "LastMint Collection",
+    "family": "LastMint NFTs"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/setmax/solana-nft-refund/main/lm-collection.png",
+        "type": "image/jpeg"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "ExjyMfEuam7V2n9fgJfhHiPEKjgJKXNonyca6zTVnMCC",
+        "share": 100,
+        "verified": true
+      }
+    ]
+  }
+}
